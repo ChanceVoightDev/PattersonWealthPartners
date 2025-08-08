@@ -1,0 +1,18 @@
+import React from "react";
+
+const Slash = ({ color, className }: { color: string; className?: string }) => {
+  return (
+    <svg
+      xmlns="http://www.w3.org/2000/svg"
+      height="44.236648"
+      viewBox="0 0 17.7768741 44.236648"
+      width="17.776874"
+      style={{ fill: color }}
+      className={className}
+    >
+      <path d="m16.8432936 0 .9335805.35836795-.179184.46679021-16.4849257 42.94469964-.17918397.4667902-.93358043-.358368.17918398-.4667902 16.48492572-42.94469959z"></path>
+    </svg>
+  );
+};
+
+export default Slash;
