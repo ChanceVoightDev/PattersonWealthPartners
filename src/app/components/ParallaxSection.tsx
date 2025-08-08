@@ -10,7 +10,7 @@ import Image, { StaticImageData } from "next/image";
 import IMAGE_1 from "../../../public/parallax-images/business-meeting-and-teamwork-by-business-people-i-2025-03-15-06-45-19-utc.jpg";
 import IMAGE_2 from "../../../public/parallax-images/business-people-planning-strategy-2025-03-13-04-57-19-utc.jpg";
 import IMAGE_3 from "../../../public/parallax-images/three-business-people-in-light-office-2025-04-04-12-41-31-utc.jpg";
-import Slash from "./ui/Slash";
+import Slash from "./ui/slash";
 import ScrollParallax from "./ScrollParallax";
 
 type ImageProps = {

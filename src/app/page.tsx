@@ -6,6 +6,7 @@ import ImageBanner from "./components/ImageBanner";
 import WhyUs from "./components/WhyUs";
 import Values from "./components/Values";
 import Carousel from "./components/Carousel";
+import ContactSection from "./components/ContactSection";
 
 export default function Home() {
   return (
@@ -42,7 +43,7 @@ export default function Home() {
         alt="Meeting between two individuals"
         tagline="Team"
         title={[
-          "Get to know the,",
+          "Get to know the",
           "incredible individuals",
           "behind our company",
         ]}
@@ -55,10 +56,12 @@ export default function Home() {
             title: "Become part of our team",
             size: "lg",
             variant: "underline",
-            className: "text-white",
+            className: "text-white px-0 sm:px-8",
           },
         ]}
       />
+
+      <ContactSection />
     </div>
   );
 }

@@ -6,7 +6,7 @@ import { Button } from "./ui/button";
 import Image from "next/image";
 
 import Logo from "../../../public/logos/patterson-wealth-logo-white.png";
-import Slash from "./ui/Slash";
+import Slash from "./ui/slash";
 
 const Navbar = () => {
   const [isScrolled, setIsScrolled] = useState(false);

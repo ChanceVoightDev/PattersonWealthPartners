@@ -19,7 +19,7 @@ const ImageBanner = ({
 }: ImageBannerProps) => {
   return (
     <section className="relative section">
-      <div className="relative flex items-end py-10 lg:py-10 h-[25vh] md:h-[75vh] max-h-[950px]">
+      <div className="relative flex items-end py-10 lg:py-10 h-[25vh] md:h-[75vh] max-h-[950px] min-h-fit">
         <Image
           src={src}
           alt={alt}
@@ -36,7 +36,7 @@ const ImageBanner = ({
           ))}
 
           {buttons && (
-            <div className="flex flex-row gap-5 mt-5">
+            <div className="flex flex-row gap-5 mt-5 flex-wrap">
               {buttons.map((button, idx) => (
                 <Button
                   key={idx}
